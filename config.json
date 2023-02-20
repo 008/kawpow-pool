@@ -1,25 +1,25 @@
 {
     
-    "poolname": "Neoxa Pool",
+    "poolname": "SIN testnet Pool",
     
     "devmode": false,
     "devmodePayMinimim": 0.25,
     "devmodePayInterval": 120,
     
     "logips": true,       
-    "anonymizeips": true,
+    "anonymizeips": false,
     "ipv4bits": 16,
     "ipv6bits": 16,
     "poolwarningmsg": "",
     
     "defaultCoin": "neoxamainnet",
     
-    "poollogo": "/static/icons/neoxa.png",
+    "poollogo": "/static/icons/sin.png",
     
     "discordtwitterfacebook": "",
     
-    "pagetitle": "Neoxa - 0% Fees Promo",
-    "pageauthor": "Neoxa project",
+    "pagetitle": "0% Fees Promo",
+    "pageauthor": "sin project",
     "pagedesc": "A reliable, 0% fee, easy to use mining pool for cryptocurrency! No matter your experience with mining cryptocurrency, we make it easy! Get started mining today!",
     "pagekeywds": "GPU,CPU,Hash,Hashrate,Cryptocurrency,Crypto,Mining,Pool,Bitcoin,Neoxa,Wavi,Wavicoin,Dixicoin,Dixi,QBic,QBicCoin,Easy,Simple,How,To",
 
@@ -48,7 +48,7 @@
         "validateWorkerUsername": true,
         "tcpProxyProtocol": false,
         "banning": {
-            "enabled": true,
+            "enabled": false,
             "time": 600,
             "invalidPercent": 50,
             "checkThreshold": 500,
@@ -65,11 +65,11 @@
         "sslenabled": false,
         "sslforced": false,
         "host": "0.0.0.0",
-        "port": 8080,
+        "port": 80,
         "sslport": 443,
         "sslkey": "~/nomp-kawpow-pool/certs/privkey.pem",
         "sslcert": "~/nomp-kawpow-pool/certs/fullchain.pem",
-        "stratumHost": "65.108.246.133",
+        "stratumHost": "51.195.1.94",
         "stats": {
             "updateInterval": 30,
             "historicalRetention": 95040,

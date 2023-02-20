@@ -1,6 +1,6 @@
 {
-    "name": "neoxamainnet",    
-    "symbol": "NEOX",    
+    "name": "sin test",    
+    "symbol": "tSIN",    
     "algorithm": "kawpow",
     
     "blockTime": 60,
